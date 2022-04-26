@@ -9,7 +9,7 @@ import facebookSvg from "../images/facebook.svg"
 import linkedinSvg from "../images/linkedin.svg"
 import devStackSvg from "../images/devStack.svg"
 import githubSvg from "../images/github.svg"
-import OnuboguChibuikemResume from "../images/OnuboguChibuikemResume.pdf"
+import Stanley from "../images/stanley.pdf"
 // import Text from './styledComponents/offsetText'
 
 
@@ -321,10 +321,10 @@ function About(props) {
                         Freelance: Available
                     </li>
                     <li className="aboutMeTxt-info--items">
-                        experience: 5+ years
+                        experience: 3+ years
                     </li>
                     <li className="aboutMeTxt-info--items">
-                        Location: Lagos, Nigeria.
+                        Location: Nnewi, Nigeria.
                     </li>
                 </ul>
 
@@ -363,7 +363,7 @@ function About(props) {
                         </a>
                     </li>
                 </ul>
-                <a href={OnuboguChibuikemResume} download className="CVDownload"
+                <a href={Stanley} download className="CVDownload"
                     data-aos="fade-right"
                     data-aos-offset="100"
                     data-aos-delay="600"

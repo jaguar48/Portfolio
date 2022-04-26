@@ -28,7 +28,7 @@ function Footer() {
             data-aos-easing="ease-in-out"
             data-aos-once="true">
             <p className="footer">
-                © Cipher-Tech {new Date().getFullYear()} All rights reserved.
+                © Motion-Studio {new Date().getFullYear()} All rights reserved.
            </p>
         </Container>
     )

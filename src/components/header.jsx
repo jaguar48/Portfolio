@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled, { css, keyframes } from 'styled-components'
-import logo from "../images/logo.jpg"
+import logo from "../images/dark.png"
 import personSvg from "../images/personSvg.svg"
 import { Diamond, Triangle, Circle } from './styledComponents'
 import breakPoint from './breakPoints'
@@ -405,13 +405,13 @@ function Header(props) {
                     I'm Okonkwo Stanley
                 </h3>
                 <p>
-                    I'm a a  computer science graduate, passionate
+                    I'm a geological science graduate, passionate
                     programmer and creative full-stack web developer 
                     <br />
                     {/* <span>
                         Nice to meet you
                     </span> */}
-                    <a href="mailto:nickchibuikem@gmail.com" className="header-text__button">
+                    <a href="mailto:agrictime@gmail.com" className="header-text__button">
                         Hire Me
                     </a>
                 </p>

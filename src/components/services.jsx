@@ -130,9 +130,10 @@ function Services() {
             content: `I build server side apps optimized for performance 
                 and continuous integration as well as  efficiency.`,
             subtitle: "stack",
-            stack: "PHP, NodeJS, MySQL, GraphQl, MongoDB.",
+            stack: "Python, PHP, NodeJS, MySQL, GraphQl, MongoDB,.",
             subtitle2: "Frameworks:",
-            tools: ["Express", 
+            tools: ["Django",
+                "Express", 
                 "Laravel",
                 "Sequelize",
                 "Mongoose",

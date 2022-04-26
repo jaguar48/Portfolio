@@ -107,7 +107,7 @@ function Contacts() {
             <div className="message">
                 LET'S WORK TOGETHER!
             </div>
-            <a href="mailto:nickchibuikem@gmail.com" className="hireButton">
+            <a href="mailto:agrictime@gmail.com" className="hireButton">
                 Hire Me
             </a>
         </Container>

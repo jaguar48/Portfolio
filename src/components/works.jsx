@@ -9,9 +9,17 @@ import medNg from "../images/projectImages/medng.jpg"
 import medNg1 from "../images/projectImages/medng1.png"
 import medNg2 from "../images/projectImages/medng2.png"
 
+import Single from "../images/single.png"
+import sear from "../images/srch.png"
+import register from "../images/reg.png"
+
 import afriLearn from "../images/projectImages/afriLearn.png"
 import afriLearn2 from "../images/projectImages/afriLearn2.png"
 import afriLearn3 from "../images/projectImages/afriLearn3.png"
+
+import search from "../images/projectImages/search.png"
+import search1 from "../images/projectImages/searchs.png"
+
 
 import movieAppImage1 from "../images/projectImages/movieApp1.png"
 import movieAppImage2 from "../images/projectImages/movieApp2.png"
@@ -249,6 +257,32 @@ function Works(props) {
 
     const Projects = [
         {
+            title: "Google search",
+            role: "Frontend Web Developer",
+            text: `Google search, is a basic search engine that utilises google api to deliver results that a user inputed in the search box.
+            `,
+            tags: ['Git', "React", 'Redux'],
+            links: {
+                demo: "https://react-google-clone-red.vercel.app/",
+                repo: "https://github.com/jaguar48/React-Google-clone",
+            },
+            image: search,
+            previews: [search, search1]
+        },
+        {
+            title: "Multi author blog",
+            role: "Backend Engineer",
+            text: `Mutli author blog, is an advanced blog app that allows authenticated authors to publish contents, edit, delete their publishs. It has subscription, contact form feature and social sharing etc.
+            `,
+            tags: ['Git', "Python","JavaScript", 'Django'],
+            links: {
+                // demo: "https://react-google-clone-red.vercel.app/",
+                repo: "https://github.com/jaguar48/Advanced-django-blog-with-dashboard",
+            },
+            image: register,
+            previews: [Single, sear]
+        },
+        {
             title: "Kafene",
             role: "Backend Web Developer",
             text: `Kafene, is a mission driven fintech company with the goal of empowering flexible ownership solutions. 
@@ -271,7 +305,7 @@ function Works(props) {
                 Lagos. I built the official website of the St James Clinic/Hospital and maternity using a mix of 
                 NextJs, Typescript and other 3rd party software specifically to the clients taste and satisfaction.
             `,
-            tags: ["html", 'css', 'javascript', 'react', "NextJs", 'TypeScript'],
+            tags: ["html", 'css', 'javascript', 'react', 'TypeScript'],
             links: {
                 demo: "https://stjameshospitalng.com/",
                 // repo: "https://github.com/cipher-tech/coin-app",
@@ -287,7 +321,7 @@ function Works(props) {
                 Worked as a senior fullstack web developer for AKI Solutions and built the entire 
                 user dashboard, admin dashboard and the entire back-end of the official website of the Lagos State Country Club.
             `,
-            tags: ["html", 'css', 'javascript', 'react', "PHP", 'Laravel', "MySQL"],
+            tags: ["html", 'css', 'javascript', 'react',  "MySQL"],
             links: {
                 demo: "https://lagoscountryclub.net/",
                 // repo: "https://github.com/cipher-tech/coin-app",
@@ -303,7 +337,7 @@ function Works(props) {
             and patient history, and also enables patients without the mobile app to access their eCard, 
             medical records and test results and book appointments.
             `,
-            tags: ["html", 'css', 'javascript', 'react', "NextJs", 'TypeScript'],
+            tags: ["html", 'css', 'javascript', 'react', 'TypeScript'],
             links: {
                 demo: "https://blackjack-lilac.vercel.app/",
                 // repo: "https://github.com/cipher-tech/coin-app",
@@ -327,37 +361,7 @@ function Works(props) {
             image: coinAppImage1,
             previews: [coinAppImage1, coinAppImage2, coinAppImage3]
         },
-        {
-            title: "Coin App Backend",
-            role: "back-end designer",
-
-            text: `The server side backend code that powers the Coin app, It's a fast API based system built on top of
-                Laravel and utilizes a MySql database. It was built with security in mind and includes features such as 
-                support for email push notification, user authentication and validation.
-            `,
-            tags: ["php", 'apache', 'laravel', 'mysql',],
-            links: {
-                // demo: "/",
-                // repo: "/",
-            },
-            image: coinAppImage2,
-            previews: [coinAppImage2, coinAppImage1, coinAppImage3]
-        },
-        {
-            title: "Afrilearn",
-            role: "Front-End Developer",
-            text: `A concept landing page for Afrilearn, An e-learning platform actively leverages a network of high-quality teachers, animators, and 
-            developers to provide affordable, world-class education for Africans, anywhere.
-            It was built with NextJs and TypeScript, and supports server side rendering and PWA.
-            `,
-            tags: ["html", 'css', 'javascript', 'react', "NextJs", 'TypeScript', "PWA"],
-            links: {
-                demo: "https://e-learning-pi.vercel.app/",
-                repo: "https://github.com/cipher-tech/E-learning/",
-            },
-            image: afriLearn,
-            previews: [afriLearn, afriLearn2, afriLearn3]
-        },
+       
         {
             title: "My Portfolio",
             role: "full stack developer",
@@ -366,26 +370,13 @@ function Works(props) {
                 the various services i render as well as the programming languages and frameworks i use. `,
             tags: ["html", 'css', 'javascript', 'react', "redux", 'webpack'],
             links: {
-                demo: "https://cipher-tech.github.io/potfoilo/",
-                repo: "https://github.com/cipher-tech/potfoilo",
+                demo: "https://potfoilo-master.vercel.app/",
+                repo: "https://github.com/jaguar48/Portfolio",
             },
             image: portfolio1,
             previews: [portfolio1, portfolio2, portfolio3]
         },
 
-        {
-            title: "Animated Check Out Button",
-            role: "front end designer",
-            text: `A fun side project built HTML and css alone. Aimed at improving, displaying and creating cool animations with css alone,
-                no javascript, libraries or frameworks included.`,
-            tags: ["html", 'css', "SCSS"],
-            links: {
-                demo: "https://cipher-tech.github.io/animated_check_out_button/",
-                repo: "https://github.com/cipher-tech/animated_check_out_button"
-            },
-            image: animatedCheckOut1,
-            previews: [animatedCheckOut1, animatedCheckOut2, animatedCheckOut3]
-        },
         {
             title: "Dependable Orientals ",
             role: "fullstack developer",
@@ -409,7 +400,7 @@ function Works(props) {
             tags: ["html", 'css', 'javascript', "redux", 'react', 'webpack'],
             links: {
                 demo: "https://cipher-tech.github.io/movie_app/",
-                repo: "https://github.com/cipher-tech/movie_app",
+                repo: "https://github.com/jaguar48/react-redux-movie-app",
             },
             image: movieAppImage1,
             previews: [movieAppImage1, movieAppImage2, movieAppImage3]
