@@ -402,7 +402,7 @@ function Header(props) {
                 </div>
                 <h3>
                     Hi, <br />
-                    I'm Okonkwo Stanley
+                    I'm Okonkwo Chukwuebuka
                 </h3>
                 <p>
                     I'm a geological science graduate, passionate
