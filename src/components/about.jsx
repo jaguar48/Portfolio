@@ -284,7 +284,7 @@ function About(props) {
                 data-aos-duration="800"
                 data-aos-easing="ease-in-out"
                 data-aos-once="true">
-                <p className="aboutMeTxt-title">Stanley Okonkwo</p>
+                <p className="aboutMeTxt-title">Chukwuebuka Okonkwo</p>
                 <p className="aboutMeTxt-sub">
                     Programmer & Web Developer
                     Based In Nigeria
@@ -309,10 +309,10 @@ function About(props) {
                 </p>
                 <ul className="aboutMeTxt-info">
                     <li className="aboutMeTxt-info--items">
-                        E-mail: <a href="mailto:okonkwostanley67@yahoo.com"> okonkwostanley67@yahoo.com</a>
+                        E-mail: <a href="mailto:agrictime@gmail.com"> agrictime@gmail.com</a>
                     </li>
                     {/* <li className="aboutMeTxt-info--items">
-                        Birthday: 29th April 1998
+                        Birthday: 03th March 1997
                     </li> */}
                     <li className="aboutMeTxt-info--items">
                         Phone: <a href="tel:+2347086847961"> (+234) 7086847961</a>
@@ -348,7 +348,7 @@ function About(props) {
                         </a>
                     </li>
                     {/* <li className="aboutMeSocial-icons">
-                        <a href="https://www.instagram.com/chibuikem_nick/?hl=en">
+                        <a href="https://www.instagram.com/motionstudio.ltd/?hl=en">
                             <img src={instagramSvg} alt="instagramSvg" />
                         </a>
                     </li> */}
