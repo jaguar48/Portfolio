@@ -309,7 +309,7 @@ function About(props) {
                 </p>
                 <ul className="aboutMeTxt-info">
                     <li className="aboutMeTxt-info--items">
-                        E-mail: <a href="mailto:agrictime@gmail.com"> agrictime@gmail.com</a>
+                        E-mail: <a href="mailto:okonkwostanley67@yahoo.com"> okonkwostanley67@yahoo.com</a>
                     </li>
                     {/* <li className="aboutMeTxt-info--items">
                         Birthday: 03th March 1997
