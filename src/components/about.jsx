@@ -284,10 +284,10 @@ function About(props) {
                 data-aos-duration="800"
                 data-aos-easing="ease-in-out"
                 data-aos-once="true">
-                <p className="aboutMeTxt-title">Chukwuebuka Okonkwo</p>
+                <p className="aboutMeTxt-title">Stanley Okonkwo</p>
                 <p className="aboutMeTxt-sub">
-                    Programmer & Web Developer
-                    Based In Nigeria
+                        Experience Devops & Sofware Developer
+                    
                 </p>
                 <p className="aboutMeTxt-main">
                     I am a skilled programmer who likes writing modular codes that are easily
@@ -315,7 +315,7 @@ function About(props) {
                         Birthday: 03th March 1997
                     </li> */}
                     <li className="aboutMeTxt-info--items">
-                        Phone: <a href="tel:+2347086847961"> (+234) 7086847961</a>
+                        Phone: <a href="tel:+2348079981193"> (+234) 8079981193</a>
                     </li>
                     <li className="aboutMeTxt-info--items">
                         Freelance: Available
