@@ -402,7 +402,7 @@ function Header(props) {
                 </div>
                 <h3>
                     Hi, <br />
-                    I'm Okonkwo Chukwuebuka
+                    I'm Stanley Okonkwo 
                 </h3>
                 <p>
                     I'm a geological science graduate, passionate
@@ -411,7 +411,7 @@ function Header(props) {
                     {/* <span>
                         Nice to meet you
                     </span> */}
-                    <a href="mailto:agrictime@gmail.com" className="header-text__button">
+                    <a href="mailto:okonkwostanley67@yahoo.com" className="header-text__button">
                         Hire Me
                     </a>
                 </p>
